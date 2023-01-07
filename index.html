@@ -1,0 +1,101 @@
+<head>
+  <style>
+    label {
+      display: block;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    select {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 16px;
+      background-color: #f1f1f1;
+    }
+
+    option {
+      font-size: 16px;
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: #4caf50;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+  </style>
+  <script>
+    function validar() {
+      var selectedOption = document.getElementById("championSelect").value;
+      if (selectedOption === "Malphite") {
+        alert("Correcto!");
+      } else {
+        alert("No existe tal campeón, replantéate tu vida.");
+      }
+    }
+
+  </script>
+</head>
+
+
+<form>
+  <label for="championSelect">¿Cuál es tu campeón favorito?:</label>
+  <select name="champion" id="championSelect">
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Ahri</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+    <option value="Malphite">Malphite</option>
+
+  </select>
+  <br>
+  <button type="button" onclick="validar()">Envíar</button>
+</form>
